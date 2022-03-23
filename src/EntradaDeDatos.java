@@ -13,7 +13,9 @@ public class EntradaDeDatos {
         var ocupa = console.nextLine();
         System.out.println("Resultado:" + ocupa + " " + usuario);
         System.out.println("Escribe tu edad");
-        var edad = console.nextInt();
+        //var edad = console.nextInt();
+
+        System.out.println("____________________");
     }
     
 }
