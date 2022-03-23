@@ -1,0 +1,23 @@
+
+public class OperadoresIgualdad {
+    
+    public static void main (String args []){
+        var a = 4;
+        var b = 8;
+        var c = ( a == b);
+        System.out.println("c = " + c);
+        
+        
+        var d = ( a != b );
+        System.out.println("d = " + d);
+        
+        var  cadena = "Hola";
+        var cadena2 = "Hola";
+        var e = (cadena == cadena2); // compara referencias de objetos 
+        System.out.println("e = " + e);
+        
+        var f = cadena.equals(cadena2);
+        System.out.println("f = " + f); // Comparamos contenido de cadenas
+    }
+    
+}
